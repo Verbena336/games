@@ -1,0 +1,17 @@
+.header {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.title {
+  margin: 0;
+  font-size: 3rem;
+  line-height: 3rem;
+  text-align: center;
+  @media screen and (max-width: 900px) {
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+  }
+}

@@ -1,0 +1,29 @@
+.wrapper {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+}
+
+.content {
+  display: flex;
+  gap: 5rem;
+
+  @media screen and (max-width: 900px) {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+
+.images {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.img,
+.carousel {
+  max-width: 36.5rem;
+  @media screen and (max-width: 570px) {
+    max-width: 30rem;
+  }
+}
